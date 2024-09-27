@@ -111,3 +111,29 @@ function dadosPessoa01(dadosadq) {
 
 console.log(dadosPessoa01(dados))
 console.log(dadosPessoa01(dadosPessoais))
+
+//3.
+
+const carroFrutas = {
+  carrinho : []
+}
+
+const fruta01 = {
+    nome : "banana",
+    possui : true
+}
+
+const fruta02 = {
+    nome : "mamao",
+    possui : true
+}
+const fruta03 = {
+    nome : "abacate",
+    possui : false 
+}
+
+function carrinhoFrutas(carroFrutas) {
+     const atualiz = carroFrutas.carrinho.push(carroFrutas.fruta01, carroFrutas.fruta02 , carroFrutas.fruta03)
+     return atualiz
+}
+console.log(carrinhoFrutas(carroFrutas))
